@@ -23,9 +23,10 @@ public class WordCuterTest {
 
     private List<String> testSentence(){
         List<String> list = new ArrayList<>(22);
-        list.add("北京顺义区李桥镇馨港庄园8区80号楼123单元201");
-        list.add("浙江杭州市余杭区五常街道西溪庭院98—2—444");
-        list.add("广东深圳市宝安区松岗街道松岗镇溪头村委西六十七巷一百二十三号");
+        list.add("馨港庄园");
+//        list.add("北京顺义区李桥镇馨港庄园8区80号楼123单元201");
+//        list.add("浙江杭州市余杭区五常街道西溪庭院98—2—444");
+//        list.add("广东深圳市宝安区松岗街道松岗镇溪头村委西六十七巷一百二十三号");
 
         return list;
     }

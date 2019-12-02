@@ -22,7 +22,7 @@ public class WordCuter {
         return wordCuter;
     }
 
-    private List<List<HitWord>> createDag(String sentence){
+    public List<List<HitWord>> createDag(String sentence){
         List<List<HitWord>> result = new ArrayList<>();
         char[] chars = sentence.toCharArray();
         int count = chars.length;

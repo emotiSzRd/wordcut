@@ -52,7 +52,7 @@ public class CharNode implements Comparable<CharNode> {
             }
             charNode = tmpCharNode;
             if (tmpCharNode.wordFrequency > 0) {
-                HitWord hitWord = new HitWord(i, tmpCharNode.wordFrequency);
+                HitWord hitWord = new HitWord(beginIndex, i, tmpCharNode.wordFrequency);
                 result.add(hitWord);
             }
         }
