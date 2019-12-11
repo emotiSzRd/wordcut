@@ -8,7 +8,6 @@ import com.google.gson.JsonObject;
 
 
 import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
 
 /**
  * some method for dict parse test
